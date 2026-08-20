@@ -1,3 +1,4 @@
+
 // 1. Words categorized by 3 difficulty levels
 const wordBank = {
     easy: ["hi", "sun", "hello", "bye", "paper"],
@@ -121,6 +122,3 @@ levelButtons.forEach(btn => {
         initGame();
     });
 });
-
-// START THE GAME ON PAGE LOAD
-initGame();
