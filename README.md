@@ -6,7 +6,7 @@ An interactive, responsive, and modern **Hangman Game** built from scratch using
 
 ##  Live Demo & Preview
 
-- 🌐 **Live Interactive Game:** hangman-game-seven-iota.vercel.app
+- 🌐 **Live Interactive Game:** [hangman-game-seven-iota.vercel.app](https://hangman-game-seven-iota.vercel.app/)
 - 💻 **GitHub Repository:** [https://github.com/msknh3x/hangman-game](https://github.com/msknh3x/hangman-game)
 
 ---
