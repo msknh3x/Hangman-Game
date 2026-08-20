@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Hangman Game</title>
-  <!-- Link external CSS -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Hangman Game</h1>
-   <div class="game-container"></div>
-   <div class="difficulty-container"></div>
-   <button class="level-btn active" data-level="easy">Easy</button>
-   <button class="level-btn" data-level="medium">Medium</button>
-   <button class="level-btn" data-level="hard">Hard</button>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hangman Game</title>
+<!-- Link external CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="game-container"></div>
+
+<!--title-->
+<h1>Hangman Game</h1>
+
+<!--Difficulty Container-->
+<div class="difficulty-container"></div>
+<button class="level-btn active" data-level="easy">Easy</button>
+<button class="level-btn" data-level="medium">Medium</button>
+<button class="level-btn" data-level="hard">Hard</button>
+
+<!--Game Info Container-->
 <div class="game-info">
-    <p>Level: <span id="current-level">Easy</span></p>
-    <p>Lives Left: <span id="Lives-count">8</span></p>
+<p>Level: <span id="current-level">Easy</span></p>
+<p>Lives Left: <span id="Lives-count">8</span></p>
 </div>
 
+<!--Secret word Container-->
 <div id="word-display" class="word-display"></div>
+
+<!--ON-screen keyboard-->
 <div id="keyboard" class="keyboard"></div>
 
-  <!-- Link external JavaScript -->
-  <script src="script.js"></script>
+<!--Win/Loss Message-->
+<p id="message" class="message"></p>
+
+<!--Reset Button-->
+<button id="reset-btn" class="reset-btn">Play Again</button>
+
+<!-- Link external JavaScript -->
+<script src="script.js"></script>
 </body>
 </html>
