@@ -107,6 +107,8 @@ function disableAllKeyboardButtons() {
     allButtons.forEach(btn => btn.disabled = true);
 }
 
+resetButtons.addEventListener("click", initGame);
+
 // Level selection buttons
 levelButtons.forEach(btn => {
     btn.addEventListener("click", (e) => {
@@ -119,9 +121,6 @@ levelButtons.forEach(btn => {
         initGame();
     });
 });
-
-// Play Again button
-resetBtn.addEventListener("click", initGame);
 
 // START THE GAME ON PAGE LOAD
 initGame();
