@@ -28,7 +28,7 @@ An interactive, responsive, and modern **Hangman Game** built from scratch using
 ## 🛠️ Built With
   <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css&theme=light" width="200" />
+    <img src="https://skillicons.dev/icons?i=html,css,js&theme=light" width="200" />
   </a>
 </p>
 
